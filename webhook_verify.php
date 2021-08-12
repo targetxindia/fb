@@ -1,3 +1,4 @@
+<?php
 try {
   // Returns a `FacebookFacebookResponse` object
   $response = $fb->post(
@@ -18,3 +19,5 @@ try {
   exit;
 }
 $graphNode = $response->getGraphNode();
+
+?>
